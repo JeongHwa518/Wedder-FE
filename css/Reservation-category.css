@@ -96,6 +96,8 @@ body {
 /* 안내멘트 */
 .guide {
     display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .guide > h3 {
@@ -106,7 +108,7 @@ body {
     font-size: 15px;
     font-weight: 500;
     letter-spacing: -0.5px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 13px;
 }
 
@@ -114,10 +116,10 @@ body {
 .category-all {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
     position: relative;
-    margin: 10px 75px;
+    margin: 15px 75px;
 }
 
 .category {
@@ -158,6 +160,5 @@ button {
     text-align: right;
     font-size: 14px;
     font-weight: bold;
-
 
 }
