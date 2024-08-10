@@ -308,7 +308,7 @@
 /* 예약 확인 모달창 */
 .modal {
     position: fixed;
-    top: 100px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -381,7 +381,7 @@
 .modal.show { 
     display: block;
     position: fixed;
-    top: 50px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -436,7 +436,7 @@
 .modal2.show2 { 
     display: block;
     position: fixed;
-    top: 50px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
